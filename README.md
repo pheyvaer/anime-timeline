@@ -9,4 +9,4 @@ A live version can be found [here](https://pieterheyvaert.com/anime-timeline).
 - [LDF Client](https://github.com/LinkedDataFragments/Client.js)
 
 # License
-The code is written by [Pieter Heyvaert](https://pieterheyvaert.com) and released under the MIT License.
+The code is written by [Pieter Heyvaert](https://pieterheyvaert.com) and released under the [MIT License](https://github.com/pheyvaer/anime-timeline/blob/master/LICENSE.md).
