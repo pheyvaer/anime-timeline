@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="./js/ldf-client.js"></script>
+    <script type="text/javascript" src="./js/n3.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="main">
+        <p class="text">
+          This tools allows you to visualize anime on a timeline.
+          Each row on the timeline represents the time during which the anime was broadcasted.
+          Add an anime by typing its title, for example, Naruto or One Piece.
+          You can also load a set of examples by clicking on 'Load Examples'.
+        </p>
+        <div>
+            <form id="search">
+              <input id="title" type="text" name="title" placeholder="title of the anime" autofocus>
+              <input type="submit" value="Search">
+              <input type="submit" value="Load Examples">
+              <input type="submit" value="Clear">
+            </form>
+        </div>
+        <div id="nothing" class="hidden">
+
+        </div>
+        <div id="timeline"></div>
+      </div>
+    </div>
+  </body>
+</html>
